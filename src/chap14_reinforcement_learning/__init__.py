@@ -21,7 +21,7 @@ register(
 register(
     id='ReversedAddition-v0',
     entry_point='gym.envs.algorithmic:ReversedAdditionEnv',
-    kwargs={'rows' : 2},
+    kwargs={'rows' : 2},     # 环境初始化参数
     max_episode_steps=200,
     reward_threshold=25.0,
 )
